@@ -47,6 +47,12 @@ figcaption span {
 
 figcaption h2 {
     display: block;
+    background: yellowgreen;
     /* text-transform: uppercase; */
+}
+
+figcaption a {
+    display: block;
+    background: blue;
 }
 
