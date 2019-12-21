@@ -43,11 +43,18 @@ header.header div.top_slider figure figcaption {
 figcaption span {
     display: block;
     background: green;
+    font-family:'Playfair Display', serif;
+    font-size: 21px;
+    font-style: italic; 
+
 }
 
 figcaption h2 {
     display: block;
     background: yellowgreen;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
     /* text-transform: uppercase; */
 }
 
@@ -56,3 +63,9 @@ figcaption a {
     background: blue;
 }
 
+/* 
+font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Playfair Display', serif; 
+*/
