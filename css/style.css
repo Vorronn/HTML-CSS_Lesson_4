@@ -22,7 +22,7 @@ header.header div.top_slider figure {
 }
 
 header.header div.top_slider figure img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     
 }
@@ -102,7 +102,7 @@ main section.info div.left {
 }
 
 main section.info div.left img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -112,4 +112,34 @@ main section.info div.right {
     top: 0;
     width: 50%;
     height: auto;
+    padding: 125px 125px 125px 90px;
+}
+
+main section.info div.right span {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-style: italic;
+    color: #000000;
+    line-height: 1;
+}
+main section.info div.right h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1;
+}
+
+main section.info div.right p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #898989;
+    line-height: 1;
+}
+
+
+section.slills {
+    display: block;
+    position: relative;
+    
 }
