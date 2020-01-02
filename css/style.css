@@ -86,3 +86,30 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Questrial', sans-serif;
 font-family: 'Playfair Display', serif;
 */
+
+main section.info {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+main section.info div.left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: auto;
+}
+
+main section.info div.left img {
+    width: 100%;
+    height: auto;
+}
+
+main section.info div.right {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 50%;
+    height: auto;
+}
