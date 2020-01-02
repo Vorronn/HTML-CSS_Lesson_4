@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: pink;
+  
+    /* background-color: pink; */
 }
 
 header.header {
@@ -22,7 +23,7 @@ header.header div.top_slider figure {
 }
 
 header.header div.top_slider figure img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     
 }
@@ -32,10 +33,13 @@ header.header div.top_slider figure figcaption {
     /* background-color: red; */
     top: 0;
     left: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 90px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    width: 100%;
+    width: 50%;
     height: 100%;
 
 }
@@ -43,16 +47,22 @@ header.header div.top_slider figure figcaption {
 
 
 figcaption h1 {
-    content: "Olins";
+    content: "olins";
     position: absolute;
     top: 0;
-    left: 0;
-    padding-left: 90px;
+    left: -20px;
+    /* padding-left: -20px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 260px;
+    font-style: italic;
+    color: rgba(115, 73, 91, 0.05);
+    text-transform: lowercase;
 
     
 }
@@ -72,7 +82,7 @@ figcaption h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 45px;
     font-weight: 900;
-    /* text-transform: uppercase; */
+    margin: 0;
 }
 
 figcaption a {
@@ -89,6 +99,7 @@ font-family: 'Playfair Display', serif;
 
 main section.info {
     position: relative;
+    display: block;
     width: 100%;
     height: auto;
 }
@@ -124,6 +135,7 @@ main section.info div.right span {
 }
 main section.info div.right h3 {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
     font-size: 37px;
     font-weight: bold;
     color: #000000;
